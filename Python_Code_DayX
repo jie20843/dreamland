@@ -1,11 +1,11 @@
-Day 1:
+Day 1: Print
 ##############################################
 print("Hello, Welcome to the band name generator!")
 City = input("What's the name of the city you grew up in?\n")
 Pet = input("What's the name of your pet?\n")
 print("Your band name could be " + City + " " + Pet)
 
-Day 2:
+Day 2: Input
 Data Type:
 String
 Interger
@@ -30,3 +30,72 @@ bill_per_person = bill_with_tip / people
 final_amount = round(bill_per_person, 2)
 final_amount = "{:.2f}".format(bill_per_person)
 print(f"Each person should pay: ${final_amount}")
+
+Day 3: If/else condition
+if condition:
+ do this
+else:
+ do this
+
+# Write your code below this line 👇
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+
+if height >= 120:
+  print("You can ride the rollercoaster!")
+else:
+  print("Sorry, you have to grow taller before you can ride.")
+
+# Which number do you want to check?
+number = int(input())
+print(number)
+if number % 2 == 0:
+  print("This is an even number.")
+else:
+  print("This is an odd number.")
+
+height = int(input("What is your height in cm? "))
+print(height)
+if height >= 120:
+  print("You can ride the rollercoaster!")
+  age = int(input(print("What is your current age?")))
+  if age < 12:
+    print("you can get a ticket by paying $5 only")
+  elif age <= 18:
+    print("you can get a ticket by paying $7 only")
+  else:
+    print("you can get a ticket by paying $12")
+else:
+  print("Sorry, you have to grow taller before you can ride.")
+
+# Enter your height in meters e.g., 1.55
+height = float(input("Enter your height in meters e.g., 1.55: "))
+# Enter your weight in kilograms e.g., 72
+weight = int(input("Enter your weight in kilograms e.g., 72: "))
+BMI = weight / (height * height)
+print("Your BMI is: " + str(BMI))
+if BMI < 18.5:
+    print("You are underweight.")
+elif BMI < 25:
+    print("You are normal weight.")
+elif BMI < 30:
+    print("You are overweight.")
+elif BMI < 35:
+    print("You are obese.")
+else:
+  print("You are clinically obese. Please consult a doctor.")
+
+year = int(input(print("Which year you would like to check whether it is a leap year or not?")))
+if year % 4 == 0:
+  if year % 100 == 0:
+    if year % 400 == 0:
+      print(f"{year} is a leap year")
+    else:
+      print(f"{year} is NOT a leap year")
+  else:
+    print(f"{year} is a leap year")
+else:
+  print(f"{year} is NOT a leap year.")
+
+
+
