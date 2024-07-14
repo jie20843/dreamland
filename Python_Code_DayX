@@ -68,6 +68,7 @@ if height >= 120:
 else:
   print("Sorry, you have to grow taller before you can ride.")
 
+# This is the code I draft to calculate your BMI.
 # Enter your height in meters e.g., 1.55
 height = float(input("Enter your height in meters e.g., 1.55: "))
 # Enter your weight in kilograms e.g., 72
