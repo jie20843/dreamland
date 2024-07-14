@@ -86,6 +86,7 @@ elif BMI < 35:
 else:
   print("You are clinically obese. Please consult a doctor.")
 
+# This is the code I develop to tell you which year is a leap year and which is not.
 year = int(input(print("Which year you would like to check whether it is a leap year or not?")))
 if year % 4 == 0:
   if year % 100 == 0:
