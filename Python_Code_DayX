@@ -197,5 +197,25 @@ if choice1 == "left":
 else:
  print("You fell into a hole. Game Over.")
 
+Day 4: random
+# import random module
+import random
+# define a function to generate a random number between 1 and 2 which equal to variable number
+number = random.randint(0, 1)
+if number == 0:
+  print("Head")
+else:
+  print("Tail")
 
+# list the names of your friends, then let the program to decide who is going to buy the meal today automatically.
+names_string = input("Give me everyboday's names, separated by a comma.\n")
+names = names_string.split(", ")
+# # import random module
+import random
+# Get the total number of items in list.
+num_items = len(names)
+# Generate random numbers between 0 and the last index.
+random_choice = random.randint(0, num_items - 1)
+# Choose and print a random name.
+print((names[random_choice]) + " is going to buy the meal today!")
 
