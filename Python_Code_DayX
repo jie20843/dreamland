@@ -331,7 +331,19 @@ for char in password_list:
 
 print(f"Your password is: {password}")
 
-Day 6: Python Functions & Karel
+Day 6: Python Functions & Loop & While
+Defining Functions:
+def my_function():
+  #Do this
+  #Then do this
+  #Finally do this
+Calling Functions
+my_function()
+
+While something_is_true:
+  #Do this
+  #Then do this
+  #Then do this
 
 
 Day 7: Hangman
